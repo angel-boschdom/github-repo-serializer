@@ -18,8 +18,7 @@ github-repo-serializer https://github.com/octocat/Hello-World.git
 ```
 
 ...produces the following output:
-<pre>
-<code>
+<pre><code>
 ```structure
 repo-n1hDcL
 └── README
@@ -29,9 +28,7 @@ repo-n1hDcL
 ```
 Hello World!
 
-```
-</code>
-</pre>
+```</code></pre>
 
 ### Programmatically
 
