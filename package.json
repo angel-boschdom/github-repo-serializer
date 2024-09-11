@@ -1,0 +1,28 @@
+{
+  "name": "github-repo-serializer",
+  "version": "1.0.0",
+  "description": "A tool to serialize GitHub repositories into a markdown string",
+  "main": "lib/index.js",
+  "bin": {
+    "github-repo-serializer": "./bin/github-repo-serializer.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "github",
+    "repository",
+    "serializer",
+    "markdown"
+  ],
+  "author": "angel-boschdom",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "simple-git": "^3.26.0",
+    "tree-node-cli": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
