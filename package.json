@@ -18,11 +18,11 @@
   "author": "angel-boschdom",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^11.2.0",
-    "simple-git": "^3.26.0",
-    "tree-node-cli": "^1.6.0"
+    "simple-git": "^3.16.0",
+    "tree-node-cli": "^1.6.0",
+    "fs-extra": "^11.1.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.5.0"
   }
 }
