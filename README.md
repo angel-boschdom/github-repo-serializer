@@ -12,16 +12,33 @@ npm install -g github-repo-serializer
 
 ### Command Line
 
+The following command...
 ```bash
-github-repo-serializer https://github.com/username/repo.git
+github-repo-serializer https://github.com/octocat/Hello-World.git
 ```
+
+...produces the following output:
+<pre>
+<code>
+```structure
+repo-n1hDcL
+└── README
+```
+
+/README
+```
+Hello World!
+
+```
+</code>
+</pre>
 
 ### Programmatically
 
 ```javascript
 const serializeGitHubRepo = require('github-repo-serializer');
 
-serializeGitHubRepo('https://github.com/username/repo.git')
+serializeGitHubRepo('https://github.com/octocat/Hello-World.git')
   .then(output => console.log(output))
   .catch(error => console.error('Error:', error));
 ```
