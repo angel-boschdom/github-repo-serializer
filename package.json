@@ -1,10 +1,10 @@
 {
   "name": "github-repo-serializer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to serialize GitHub repositories into a markdown string",
   "main": "lib/index.js",
   "bin": {
-    "github-repo-serializer": "./bin/github-repo-serializer.js"
+    "github-repo-serializer": "bin/github-repo-serializer.js"
   },
   "scripts": {
     "test": "jest"
