@@ -14,7 +14,7 @@ npm install -g github-repo-serializer
 
 The following command...
 ```bash
-github-repo-serializer https://github.com/octocat/Hello-World.git
+github-repo-serializer --r https://github.com/octocat/Hello-World.git
 ```
 
 ...produces the following output:
@@ -29,6 +29,16 @@ repo-n1hDcL
 Hello World!
 
 ```</code></pre>
+
+To write the output in a text file, use the "output" optional argument:
+```bash
+github-repo-serializer --r https://github.com/octocat/Hello-World.git --o myserializedrepo.txt
+```
+
+To serialize the current directory tree, omit the "repo" optional argument:
+```bash
+github-repo-serializer --o myserializedcd.txt
+```
 
 ### Programmatically
 
